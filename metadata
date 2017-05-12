@@ -1,0 +1,20 @@
+---
+- 
+  title: "Active MQ status"
+  description: "Custom plugin which checks activemq status."
+  link: "https://github.com/racker/rackspace-monitoring-agent-plugins-contrib/blob/master/activemq-status.sh"
+  image_path: "http://activemq.apache.org/images/activemq-logo.png"
+  image_alt: "ActiveMQ logo"
+  tag_list:
+    - queue
+    - activemq
+- 
+  title: "Rackspace Cloud Servers RAM usage monitor"
+  description: "Pulls metrics from API for Total RAM allowed for Cloud Servers and Total RAM currently used (for API limits) and returns percent_ram_used metric to Cloud Monitoring API.  Threshold percentage of when to set status to warning is set at command line argument along with username and api key"
+  link: "https://github.com/racker/rackspace-monitoring-agent-plugins-contrib/blob/master/api_limit_ram_usage.py"
+  image_path: "https://752f77aa107738c25d93-f083e9a6295a3f0714fa019ffdca65c3.ssl.cf1.rackcdn.com/icons/og-image.png"
+  image_alt: "Rackspace logo"
+  tag_list:
+    - cloud_servers
+    - ram
+
